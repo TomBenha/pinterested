@@ -1,0 +1,19 @@
+$navbar-height: 100px;
+$navbar-default-bg: tomato;
+$navbar-default-link-hover-color: yellow;
+$jumbotron-bg: pink;
+$jumbotron-heading-color: #008B8B;
+
+
+
+
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center {
+    text-align: center;
+    $text-color: black;
+}
