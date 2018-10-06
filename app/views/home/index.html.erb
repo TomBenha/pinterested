@@ -2,12 +2,9 @@
   <h1>Welcome to my App </h1>
 <p> Everyone come to see - lets lern together</p>
 
-<% link_to"login", root_path, class: 'btn btn-default' %>
-<button type="button" class=btn btn-default"> Login </button>
+<%= link_to"login", new_user_session_path, class: 'btn btn-default' %>
+<%=link_to"join", new_user_registration_path, class: 'btn btn-primary' %>
 
-
-<% link_to"join", root_path, class: 'btn btn-primary' %>
-<button type="button" class=btn btn-primary"> Join </button>
 </div>
 
 
